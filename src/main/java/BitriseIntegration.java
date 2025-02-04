@@ -37,8 +37,8 @@ private final String appId = System.getenv("LAMBDATEST_APP_URL");
     public void setUp(String device, String version, String platform) throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         HashMap<String, Object> ltOptions = new HashMap<>();
-        ltOptions.put("build", "[Build-plugin] BitriseIntegration");
-        ltOptions.put("name", "[Name] BitRiseIntegration-with plugin");
+        ltOptions.put("build", "[Build-plugin] BitriseIntegration1");
+        ltOptions.put("name", "[Name] BitRiseIntegration-with plugin0");
         ltOptions.put("platformName", platform);
         ltOptions.put("deviceName", device);
         ltOptions.put("platformVersion", version);
